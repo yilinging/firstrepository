@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+//$("div").addClass("special");
+//jQuery("div").addClass("special") 同上
+//$為jQueru的物件(亦可當成函數), $("div")用jQuery來選取文件內所有<div>元素
+//.addClass("special") 將先前所選取到的所有元素都加上一個名為 "special" 的 class
+//透過 $("div").addClass("special") 讓文件上有的 <div> 元素都加入 special 的 class
+//原本使用 JavaScript 可能會需要用到迴圈之類的語法,而 jQuery 的函數大多具有批次處理的功能，讓程式更簡潔
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
+
+
